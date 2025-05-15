@@ -5,7 +5,7 @@ import AuthPage from './pages/AuthPage'; // Assuming AuthForm is in AuthPage
 import IndexUsersPage from './components/IndexUsersPage'; // Import the new page
 import FetchNSData from './components/FetchNSData'; 
 import BulkDocIndex from './components/BulkDocIndexing';
-import BulkIndexingSuccess from './containers/BulkIndexingSuccess';
+import BulkIndexingSuccess from './components/BulkIndexingSuccess';
 
 function App() {
   // You might have a state to check if auth is complete if you don't rely solely on navigation
